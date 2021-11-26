@@ -8,24 +8,32 @@
   font-weight: normal;
   font-style: normal;
   src: url("fonts/Yekan.eot");
-  src: url("fonts/Yekan.eot?#iefix") format('embedded-opentype'),
-  url('fonts/Yekan.woff') format('woff'),
-  url("fonts/Yekan.ttf") format('truetype'),
-  url("fonts/Yekan.svg#BYekan") format('svg');
+  src: url("fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Yekan.woff") format("woff"),
+    url("fonts/Yekan.ttf") format("truetype"),
+    url("fonts/Yekan.svg#BYekan") format("svg");
 }
 @font-face {
   font-family: yekan;
   font-weight: bold;
   font-style: normal;
   src: url("fonts/Yekan.eot");
-  src: url("fonts/Yekan.eot?#iefix") format('embedded-opentype'),
-  url('fonts/Yekan.woff') format('woff'),
-  url("fonts/Yekan.ttf") format('truetype'),
-  url("fonts/Yekan.svg#BYekan") format('svg');
+  src: url("fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Yekan.woff") format("woff"),
+    url("fonts/Yekan.ttf") format("truetype"),
+    url("fonts/Yekan.svg#BYekan") format("svg");
 }
 body {
-  font-family:'yekan', Arial, sans-serif;
+  font-family: "yekan", Arial, sans-serif;
   font-weight: normal;
+  text-align: right;
+}
+.header-top {
+  margin: 1rem;
+  /* background-color: aqua; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 .icons_container {
   display: flex;
@@ -33,9 +41,85 @@ body {
   flex-direction: row;
 }
 .icons {
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .header_p {
-  /* font-family:“yekan”; */
+  margin-right: 0.5em;
+  padding-left: 1em;
+}
+
+.figure-header {
+  width: 100vw;
+  height: 65vh;
+  /* display: flex; */
+  background-image: url("https://lh3.googleusercontent.com/proxy/bqoSIDWb_ldF6d8Kd7pyzTYbrsySTZ-xW3ujNceMFIbB3NUssbLXUVe1FYx7dZfLzQ1owtG6BfrVoTizR-AYfdvCTSbed8bpPU_xJ5KtrVQYvTy3wzLujG17ypIg7JeYNwJcYv5L0vizDWyo");
+  background-size: cover;
+  background-position: center;
+  /* flex-direction: column;
+    position: relative; */
+}
+
+.figure-caption {
+  padding-top: 10rem ;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.13);
+  color: white;
+}
+section {
+margin: 2%;
+}
+.headphones-container {
+margin: 0.05vw;
+display: flex;
+flew flex-flow: row wrap;
+}
+.headphones {
+    max-width: 20rem;
+    min-height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(199, 199, 199) 3px ; 
+    border-radius: 7px;
+    /* box-shadow: 5px 5px 10px black ; */
+    /* background-color: burlywood; */
+}
+.headphone-img-container {
+    margin: 1rem;
+    width: 80%;
+}
+.headphones-container-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* background-color: cadetblue; */
+    justify-content: space-between;
+}
+.buy {
+    background-color: green;
+    color: white;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 50%;
+}
+.like {
+    background-color: green;
+    color: white;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 50%;
+}
+p {
+    direction: rtl;
 }
