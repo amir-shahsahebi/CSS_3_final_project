@@ -88,6 +88,7 @@ flew flex-flow: row wrap;
     align-items: center;
     border: solid rgb(199, 199, 199) 3px ; 
     border-radius: 7px;
+    position: relative;
     /* box-shadow: 5px 5px 10px black ; */
     /* background-color: burlywood; */
 }
@@ -95,10 +96,34 @@ flew flex-flow: row wrap;
     margin: 1rem;
     width: 80%;
 }
+.headphones-container-top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    margin-top: 3% ;
+    margin-right: 3% ;
+    padding: 0.2rem;
+}
+.headphones-container-top-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    margin-top: 3% ;
+    margin-right: 3% ;
+    padding: 0.2rem;
+}
+.checked {
+  color: orange;
+}
 .headphones-container-bottom {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 95%;
+    padding: 3%;
     /* background-color: cadetblue; */
     justify-content: space-between;
 }
@@ -107,8 +132,8 @@ flew flex-flow: row wrap;
     color: white;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     border-radius: 50%;
 }
 .like {
@@ -116,8 +141,8 @@ flew flex-flow: row wrap;
     color: white;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     border-radius: 50%;
 }
 p {
