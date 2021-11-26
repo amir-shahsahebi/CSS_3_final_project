@@ -1,14 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: yekan;
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Yekan.eot");
+  src: url("fonts/Yekan.eot?#iefix") format('embedded-opentype'),
+  url('fonts/Yekan.woff') format('woff'),
+  url("fonts/Yekan.ttf") format('truetype'),
+  url("fonts/Yekan.svg#BYekan") format('svg');
+}
+@font-face {
+  font-family: yekan;
+  font-weight: bold;
+  font-style: normal;
+  src: url("fonts/Yekan.eot");
+  src: url("fonts/Yekan.eot?#iefix") format('embedded-opentype'),
+  url('fonts/Yekan.woff') format('woff'),
+  url("fonts/Yekan.ttf") format('truetype'),
+  url("fonts/Yekan.svg#BYekan") format('svg');
+}
+body {
+  font-family:'yekan', Arial, sans-serif;
+  font-weight: normal;
 }
 .icons_container {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-} 
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
 .icons {
-    margin-left:0.2rem ;
-    margin-right:0.2rem ; 
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.header_p {
+  /* font-family:“yekan”; */
 }
