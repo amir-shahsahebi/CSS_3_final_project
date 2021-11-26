@@ -127,15 +127,38 @@ flew flex-flow: row wrap;
     /* background-color: cadetblue; */
     justify-content: space-between;
 }
+.headphones-container-bottom-left {
+  display: flex;
+  flex-direction: row;
+}
 .buy {
     background-color: green;
+    /* width: 2rem; */
     color: white;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
-    border-radius: 50%;
+    border-radius: 15px;
+    transition: all 1.2s ;
 }
+.buy2 {
+  display: none;
+  transition: all 1s ;
+}
+.buy:hover .buy2 {
+  display: inline;
+  margin-left: -2rem;
+}
+.buy2:hover {
+  padding-left: 3rem;
+}
+.buy:hover {
+  transform: ;
+  padding-right: 1rem;
+  padding-left: 0.51rem;
+}
+
 .like {
     background-color: green;
     color: white;
@@ -143,8 +166,9 @@ flew flex-flow: row wrap;
     margin-right: 0.2rem;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
-    border-radius: 50%;
+    border-radius: 15px;
 }
+
 p {
     direction: rtl;
 }
