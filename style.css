@@ -59,7 +59,7 @@ body {
   width: 100vw;
   height: 65vh;
   /* display: flex; */
-  background-image: url("https://lh3.googleusercontent.com/proxy/bqoSIDWb_ldF6d8Kd7pyzTYbrsySTZ-xW3ujNceMFIbB3NUssbLXUVe1FYx7dZfLzQ1owtG6BfrVoTizR-AYfdvCTSbed8bpPU_xJ5KtrVQYvTy3wzLujG17ypIg7JeYNwJcYv5L0vizDWyo");
+  background-image: url("https://lh3.googleusercontent.com/proxy/ab5d_Fa_7BVEmQrgtFcyFlWAuhQBrG6cgBr5DLxg5hiu3jzM77ylI2Ev8h61_9U__awalifOfz5k4-ckX6J5D70V6OOSVEZGkSJh4NxR02vTkZEOmWxfTURGx8MWiBX3Do5Z3vR7XvA0WXpe");
   background-size: cover;
   background-position: center;
   /* flex-direction: column;
@@ -78,10 +78,12 @@ margin: 2%;
 .headphones-container {
 margin: 0.05vw;
 display: flex;
-flew flex-flow: row wrap;
+flex-flow: row wrap;
+gap: 1rem;
+margin-top: 1rem;
 }
 .headphones {
-    max-width: 20rem;
+    max-width: 19rem;
     min-height: 22rem;
     display: flex;
     flex-direction: column;
@@ -89,8 +91,18 @@ flew flex-flow: row wrap;
     border: solid rgb(199, 199, 199) 3px ; 
     border-radius: 7px;
     position: relative;
+    /* justify-content: center; */
     /* box-shadow: 5px 5px 10px black ; */
     /* background-color: burlywood; */
+}
+.text-p {
+  text-align: center;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
 }
 .headphone-img-container {
     margin: 1rem;
@@ -120,6 +132,8 @@ flew flex-flow: row wrap;
   color: orange;
 }
 .headphones-container-bottom {
+    /* position: relative;
+    bottom: 0%; */
     display: flex;
     flex-direction: row;
     width: 95%;
