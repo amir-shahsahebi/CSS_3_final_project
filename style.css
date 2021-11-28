@@ -75,6 +75,10 @@ body {
 section {
 margin: 2%;
 }
+.text-title {
+  border-bottom: red solid 2px;
+  display: inline;
+}
 .headphones-container {
 margin: 0.05vw;
 display: flex;
