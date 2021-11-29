@@ -195,7 +195,23 @@ align-content: center;
 p {
     direction: rtl;
 }
-
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(173,181,190);
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.footer-right {
+  width: 70%;
+  text-align: justify;
+  align-self: center;
+}
 @media screen and (max-width: 386px) {
   .header-top {
   /* margin: 1rem; */
