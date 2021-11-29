@@ -47,6 +47,8 @@ body {
 }
 .icons:hover {
   cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 10px rgba(207, 207, 207, 0.336);
 }
 .header-left {
   display: flex;
@@ -79,7 +81,23 @@ body {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.13);
   color: white;
+  animation-name: fig-title;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
+@keyframes fig-title {
+  0% {
+    color: rgb(77, 77, 77);
+  }
+  50% {
+    color: rgb(131, 131, 131);
+  }
+  100% {
+    color: rgb(214, 214, 214);
+  }
+}
+
 section {
 margin: 2%;
 }
