@@ -45,11 +45,17 @@ body {
   margin-left: 1em;
   margin-right: 1em;
 }
+.icons:hover {
+  cursor: pointer;
+}
 .header-left {
   display: flex;
   flex-direction: row;
   border: 1px solid black;
   border-radius: 5px;
+}
+.header-left:hover {
+  cursor: pointer;
 }
 .header_p {
   margin-right: 0.5em;
@@ -103,6 +109,9 @@ align-content: center;
     align-content: center;
     /* box-shadow: 5px 5px 10px black ; */
     /* background-color: burlywood; */
+}
+.headphones:hover {
+    box-shadow: 2px 1px 30px 1px rgb(117, 117, 117) ;
 }
 .text-p {
   text-align: center;
